@@ -39,14 +39,15 @@ const quotes={
   ]
 };
 const music = {
-  happy:   { t: "😊 Anxiety Relief & Positive Energy",  u: "https://youtu.be/18tS9T-jqiw?si=hrC-rO28KPL1tEpD" },
-  neutral: { t: "😐 Mindfulness & Balance",   u: "https://youtu.be/Mllp-YSR4BQ?si=vrmVEkOgxVheZ54U" },
-  calm:    { t: "😌 Deep Meditation & Inner Peace",     u: "https://youtu.be/yciW-DCbjVY?si=0FBhmDPhQLodYnme" },
-  tired:   { t: "😴 Sleep Therapy & Healing",    u: "https://youtu.be/8qzycVDPm1c?si=7xog5Ei0DQasaXSs" },
-  sad:     { t: "😢 Depression Support & Healing",   u: "https://youtu.be/vItWe9DncsU?si=nq2t4JcNF2YD5ePa" },
-  angry:   { t: "😠 Release Tension & Stress Relief",u: "https://youtu.be/q3vUHVGv9nE?si=X3cevboNjAZ7UvYW" },
-  love:    { t: "❤️ Self-Love & Compassion",   u: "https://youtu.be/6_LsCe4jUF8?si=Jn_wtWQ_H5GvnFol" }
+  happy:   { t: "😊 Anxiety Relief & Positive Energy",u:"https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB?si=4df90c0fc092433b" },
+  neutral: { t: "😐 Mindfulness & Balance",u: "https://open.spotify.com/track/7AzlLxHn24DxjgQX73F9fU?si=7a2940eadd0e43cf" },
+  calm:    { t: "😌 Deep Meditation & Inner Peace",u:"https://open.spotify.com/track/5p4OjRDaSEDL9lNsSD67R9?si=b755f37eccf5414b" },
+  tired:   { t: "😴 Sleep Therapy & Healing",u:"https://open.spotify.com/track/5w9c2J52mkdntKOmRLeM2m?si=1ef0d3c22b8c4c0f" },
+  sad:     { t: "😢 Depression Support & Healing",u:"https://open.spotify.com/track/0JGTfiC4Z41GEEpMYLbWwO?si=8b6dd8c0f2cf4f63" },
+  angry:   { t: "😠 Release Tension & Stress Relief",u:"https://open.spotify.com/track/06Muk6IyarouV5CXeQ2yBN?si=1a68682fe72e47ab" },
+  love:    { t: "❤️ Self-Love & Compassion", u:"https://open.spotify.com/track/7gymMiUpp1AOYR5EiRDDrO?si=b5eebf71db6b41fe" }
 };
+
 
 // Mood labels for tooltips
 const moodLabels = {
