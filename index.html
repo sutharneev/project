@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Mental Health Check-in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mental Health Support</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Me</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="header">
+      <h1>Interactive Mental Health Check-in</h1>
+      <p class="subtitle">Record your mood, reflect, and get gentle support</p>
+    </header>
+    <section class="card">
+      <h2>Today's Check-in</h2>
+      <p class="helper">Pick an emoji and optionally add a note.</p>
+      <div class="mood-grid" id="moodGrid">
+        <button class="mood" data-mood="happy" aria-label="Happy - Anxiety Relief & Positive Energy" title="Click to select Happy mood and get uplifting mental health resources">😊</button>
+        <button class="mood" data-mood="neutral" aria-label="Neutral - Mindfulness & Balance" title="Click to select Neutral mood and get balanced mental health resources">😐</button>
+        <button class="mood" data-mood="calm" aria-label="Calm - Deep Meditation & Inner Peace" title="Click to select Calm mood and get meditation resources">😌</button>
+        <button class="mood" data-mood="tired" aria-label="Tired - Sleep Therapy & Healing" title="Click to select Tired mood and get sleep support resources">😴</button>
+        <button class="mood" data-mood="sad" aria-label="Sad - Depression Support & Healing" title="Click to select Sad mood and get depression support resources">😢</button>
+        <button class="mood" data-mood="angry" aria-label="Angry - Release Tension & Stress Relief" title="Click to select Angry mood and get stress relief resources">😠</button>
+        <button class="mood" data-mood="love" aria-label="Love - Self-Love & Compassion" title="Click to select Love mood and get self-compassion resources">❤️</button>
+      </div>
+      <div class="note">
+        <label for="noteInput">Add a short note (optional)</label>
+        <textarea id="noteInput" rows="3" placeholder="Write a few words…"></textarea>
+      </div>
+      <div class="actions">
+        <button id="saveBtn" class="primary">Save Today's Mood</button>
+      </div>
+    </section>
+    <section class="layout">
+      <div class="card">
+        <h2>Today's Suggestion</h2>
+        <div id="quote" class="quote" aria-live="polite"></div>
+        <div id="music" class="music"></div>
+      </div>
+      <div class="card">
+        <h2>Mood History</h2>
+        <ul id="history" class="history"></ul>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
